@@ -7,7 +7,7 @@ Before being able to use this scipt or replicating something like it for yoursel
 
 ## Usage
 
-`experiment_tracker.py` implements the ExperimentTracker class. To initialize, provide the filepath to the `client_secret.json`, the name of the spreadsheet, and the names of the parameters/results you would like to track. The defualt worksheet argument is 'Sheet1', which is Google's default worksheet name but you can set that to something else if you like. The 'worksheet' is the tab at the bottom when you open a Google Sheet. 
+`experiment_tracker.py` implements the ExperimentTracker class. To initialize, provide the filepath to the `client_secret.json`, the name of the spreadsheet. The defualt worksheet argument is 'Sheet1', which is Google's default worksheet name but you can set that to something else if you like. The 'worksheet' is the tab at the bottom when you open a Google Sheet. 
 
-First row of the spreadsheet the names of the parameters/results you want to track and the experiment-tracking module is ready to use.
+Put the names of the parameters/results you want to track in the first row of the spreadsheet and the experiment-tracking module is ready to use.
 
